@@ -124,3 +124,12 @@ hr{
   background-color: #1275bc;
   color: #ffffff
 }
+
+/* TIPS */
+
+.tips{
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

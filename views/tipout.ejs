@@ -37,52 +37,118 @@
 
 
         <div class="container directory col">
+
             <h2 class="text-center">Tip Out</h2>
 
-            <p> Waiter Total Sales From Aloha</p>
-            <input type="number" id="TS_Waiter">
+            <div class="card shadow col prof">
 
-            <p>Bar Tip Out Rate </p>
-            <input type="number" id="TO_Bar_Rate">
+                <div class="card-body profile">
 
-            <p>Busser Tip Out Rate </p>
-            <input type="number" id="TO_Busser_Rate"> 
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Waiter Total Sales From Aloha</span>
+                        </div>
+                        <input type="number" class="form-control" id="TS_Waiter">
+                      </div>
 
-            <p>Bar Tipout </p>
-            <p id="TO_Bar"></p>
+                    <!-- <p> Waiter Total Sales From Aloha</p>
+                    <input type="number" id="TS_Waiter"> -->
 
-            <p> Busser Tipout </p>
-            <p id="TO_Busser"></p> 
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Bar Tip Out Rate</span>
+                        </div>
+                        <input type="number" class="form-control" id="TO_Bar_Rate">
+                      </div>
+
+                    <!-- <p>Bar Tip Out Rate </p>
+                    <input type="number" id="TO_Bar_Rate"> -->
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Busser Tip Out Rate</span>
+                        </div>
+                        <input type="number" class="form-control" id="TO_Busser_Rate">
+                      </div>
+ 
+                    
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Bar Tipout :</span>
+                        </div>
+                        <p class="tips" id="TO_Bar"> </p>
+                      </div>
+
+                    <!-- <p>Bar Tipout </p>
+                    <p id="TO_Bar"></p> -->
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Busser Tipout :</span>
+                        </div>
+                        <p class="tips" id="TO_Busser"> </p>
+                      </div>
 
 
+                    <!-- <p> Busser Tipout </p>
+                    <p id="TO_Busser"></p>  -->
 
-            <p>Server total Tips</p>
-            <p id="server_total"></p>
-
-            <h4>Declared Tips</h4>
-            <p id="declared_tips"></p>
-
-            <p>CC_Tips</p> 
-            <input type="number" id="CC_Tips"> 
-            <p>CC_Refund</p>
-            <input type="number" id="CC_Refund" value="0.025"> 
-            <p>Cash Auto Grant</p>
-            <input type="number" id="Cash_Auto_Grat">
-            
-            
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Server Total Tips :</span>
+                        </div>
+                        <p class="tips" id="server_total"> </p>
+                      </div>
 
 
+                    <!-- <p>Server total Tips</p>
+                    <p id="server_total"></p> -->
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Declared Tips :</span>
+                        </div>
+                        <p class="tips" id="declared_tips"> </p>
+                      </div>
+
+                    <!-- <h4>Declared Tips</h4>
+                    <p id="declared_tips"></p> -->
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">CC_Tips</span>
+                        </div>
+                        <input type="number" class="form-control" id="CC_Tips">
+                      </div>
+                    
+                    <!-- <p>CC_Tips</p> 
+                    <input type="number" id="CC_Tips">  -->
+                    
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">CC_Refund</span>
+                        </div>
+                        <input type="number" class="form-control" id="CC_Refund" value="0.025">
+                      </div>
+
+                    <!-- <p>CC_Refund</p>
+                    <input type="number" id="CC_Refund" value="0.025">  -->
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">Cash Auto Grant</span>
+                        </div>
+                        <input type="number" class="form-control" id="Cash_Auto_Grat">
+                      </div>
 
 
-
-
-            
-
-
-
-
-            <input type="button" value="Calculate" id="calculate_button">   
-            
+                    <!-- <p>Cash Auto Grant</p>
+                    <input type="number" id="Cash_Auto_Grat"> -->
+                    
+                    <br/>
+                    <input type="button" value="Calculate" id="calculate_button" class="btn btn-primary">
+                </div>
+            </div>
                 
         </div> 
     </div>
